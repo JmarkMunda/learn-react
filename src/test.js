@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-class Test extends Component {
+class Test extends React.Component {
     render() { 
         return (
             <div>
                 <header>
                     <nav>
-                        <img src='./logo.svg' style={{width: 250}}>
+                        <img src='./assets/reactlogo.png' style={{width: 500}} />
                     </nav>
                 </header>
                 <h1>Reasons I'm excited with react</h1>

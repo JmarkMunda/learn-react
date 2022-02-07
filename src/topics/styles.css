@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rowdies:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rowdies", cursive;
+  box-shadow: 1px 1px 5px 1px rgb(151, 151, 151);
+}
+.nav-logo {
+  width: 50px;
+  margin: 10px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+.nav-logo:hover {
+  transform: scale(1.5, 1.5);
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+.nav-items > li {
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+
+.nav-items > li:hover {
+  color: rgb(70, 70, 70);
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.main-container {
+  font-family: "Rowdies", cursive;
+  padding: 20px;
+  margin: 20px;
+}
+.main-container > h1 {
+  margin-bottom: 20px;
+}
+
+footer {
+  font-family: "Rowdies", cursive;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(141, 141, 141, 0.589);
+}

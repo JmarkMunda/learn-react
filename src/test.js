@@ -1,13 +1,25 @@
-import ReactDOM from 'react-dom';
 
-function Test(){
-    const time = (
-        <div>
-            <h1>Hello World</h1>
-            <h2>Its {new Date().toLocaleTimeString()}.</h2>
-        </div>
-    );
-    ReactDOM.render(time, document.getElementById('root'));   
+import React from 'react';
+
+class Test extends Component {
+    render() { 
+        return (
+            <div>
+                <header>
+                    <nav>
+                        <img src='./logo.svg' style={{width: 250}}>
+                    </nav>
+                </header>
+                <h1>Reasons I'm excited with react</h1>
+                    <ol>
+                        <li>Cool</li>
+                        <li>Popular</li>
+                        <li>To get a job as a react developer</li>
+                    </ol>
+                <footer>c 2022 Munda development. All rights reserved.</footer>
+            </div>
+        );
+    }
 }
-setInterval(Test, 1000);
  
+export default Test;
